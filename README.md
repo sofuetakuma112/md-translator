@@ -14,8 +14,8 @@
 1. リポジトリをクローンします：
 
    ```bash
-   git clone https://github.com/yourusername/md-translater-by-gemini.git
-   cd md-translater-by-gemini
+   git clone https://github.com/sofuetakuma112/md-translator.git
+   cd md-translator
    ```
 
 2. 必要な依存パッケージをインストールします：
