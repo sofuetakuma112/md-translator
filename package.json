@@ -1,0 +1,18 @@
+{
+  "name": "md-translater-by-gemini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate": "node markdown-translator.js",
+    "translate:force": "node markdown-translator.js --force"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^0.6.1",
+    "dotenv": "^16.4.7",
+    "yargs": "^17.7.2"
+  }
+}

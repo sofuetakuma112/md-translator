@@ -1,0 +1,31 @@
+# すべてのファイルを無視
+*
+
+# 以下のファイルとディレクトリを許可
+!.gitignore
+!package.json
+!package-lock.json
+!README.md
+!src/
+!tsconfig.json
+!vite.config.ts
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+
+# 以下のファイルとディレクトリを無視
+node_modules/
+!node_modules/.gitkeep
+!dist/
+!coverage/
+!*.log
+!translated-markdown-files/
+!japanese-translations/
+!.idea/
+!.vscode/
+!*.swp
+!*.swo
+!.DS_Store
+!Thumbs.db
+!.env.example
