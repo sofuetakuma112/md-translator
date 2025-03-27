@@ -10,7 +10,6 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { GoogleGenAI } = require("@google/genai");
-const { extractContentFromCodeBlock } = require("./markdown-utils");
 require("dotenv").config(); // .envファイルから環境変数を読み込む
 
 // コマンドライン引数を解析
